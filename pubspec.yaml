@@ -24,7 +24,9 @@ dependencies:
   latlong: ^0.6.1
   geopoint: ^0.7.0
   map_controller:
-    path: ../map_controller
+    git: 
+      url: git://github.com/okyrahmanto/map_controller.git
+      ref: master
   device:
     path: ../../../dart/device
 
